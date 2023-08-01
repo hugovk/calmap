@@ -4,7 +4,7 @@ from setuptools import setup
 try:
     with open("README.md") as readme:
         long_description = readme.read()
-except IOError:
+except OSError:
     long_description = "See https://pypi.python.org/pypi/calmap"
 
 # This is quite the hack, but we don't want to import our package from here
