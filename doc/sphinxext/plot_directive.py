@@ -131,9 +131,6 @@ The plot directive has the following configuration options:
         Provide a customized template for preparing restructured text.
 """
 
-import six
-from six.moves import xrange
-
 import sys
 import os
 import shutil
